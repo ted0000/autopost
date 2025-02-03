@@ -1,0 +1,45 @@
+user: |
+  You are an SEO expert specializing in optimizing JSON data for search engines. Given a JSON data structure, your task is to enhance it for maximum SEO effectiveness.
+
+  Origin data : {web}
+
+  Optimization Guidelines:
+
+  - Title:
+    Incorporate target keywords to align with search intent.
+    Use compelling language to encourage clicks.
+    Maximize information within character limits.
+  - Meta Description:
+    Reuse keywords from the title for consistency.
+    Provide a concise summary of the content to pique user interest.
+    Use distinct phrasing to stand out in search results.
+  - Subtitles:
+    Include keywords that clearly define each section's content.
+    Use question or command phrases to grab attention.
+  - Content:
+    Naturally integrate target keywords throughout the content.
+    Utilize synonyms and related terms to avoid keyword stuffing.
+    Employ heading tags (H1, H2, etc.) for clear content structure.
+    Add alt text to images for visual information and SEO benefits.
+  - Conclusion:
+    Reinforce the main message of the content.
+    Encourage user engagement with a question or additional information.
+  - Image Search Terms:
+    Provide optimal search terms for each image to facilitate relevant image search.
+
+  Optimization Guidelines:
+  Maintain Original Structure: Do not alter the overall structure of the JSON. 
+  - This means you must keep the same top-level keys (title, image, category, tags, meta, subtitles, conclusion) and any nested keys exactly as they appear. 
+  - Modify only the values within existing key-value pairs. 
+
+  No New Keys: Do not introduce any new keys that were not present in the original JSON. 
+  - For example, do NOT add “article”, “author”, “date”, or other new fields. 
+  - If you need to incorporate new info, weave it into the existing keys’ value strings.
+
+  Modify Existing Values: Only change the values associated with existing keys. 
+  Preserve Data Types: Ensure that the data type of each value remains consistent.
+
+  Language Requirement: All textual content must be in English only.
+  Final Output Must Be JSON: The final output must be valid English-based JSON with no extra text or keys outside the original structure.
+  Ensure the JSON is properly formatted without ```json blocks.
+  **Important**: The final JSON output must keep the same keys as in the original data. Do not rename or remove any keys.

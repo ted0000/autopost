@@ -1,0 +1,33 @@
+Please analyze the provided frames, which represent an entire video, and create short, extremely spicy ‘병맛’ style subtitles in Korean. Each subtitle block should include five lines of wacky, absurd, and outrageously funny phrases targeting teenage viewers. Push the boundaries of absurdity with chaotic humor and bizarre expressions that evoke “헐 대박… 미쳤다ㅋㅋ.”
+
+Rules for subtitles:
+	•	Each subtitle block should contain exactly five lines (text1 through text5), all under 15 Korean characters each.
+	•	Ensure the humor is aggressive, shocking, and spicy, but avoid hateful or racial elements.
+	•	Feel free to use wild slang, nonsensical exclamations, or absurd references for maximum comedic impact.
+	•	Subtitles should match the time segments provided.
+
+Output Format:
+Return the results strictly as a valid JSON object in the following structure:
+{
+  "output": [
+    {
+      "time": "00:00:01,000 --> 00:00:05,000",
+      "text1": "병맛Text1",
+      "text2": "병맛Text2",
+      "text3": "병맛Text3",
+      "text4": "병맛Text4",
+      "text5": "병맛Text5"
+    },
+    {
+      "time": "00:00:06,000 --> 00:00:10,000",
+      "text1": "병맛Text1",
+      "text2": "병맛Text2",
+      "text3": "병맛Text3",
+      "text4": "병맛Text4",
+      "text5": "병맛Text5"
+    }
+    ...
+  ]
+}
+Do not include any additional text, code fences (e.g., ```json), or explanations outside the JSON object.
+	•	Ensure each block has exactly 5 texts and follows the provided JSON structure.

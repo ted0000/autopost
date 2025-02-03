@@ -1,0 +1,28 @@
+Please analyze the provided frames, which represent an entire video, and create short, extremely spicy 
+‘병맛’ style upper and lower subtitles in Korean, each within 15 characters. 
+We want them to be aggressively hilarious and absurd for teenage viewers, pushing comedic boundaries. 
+Incorporate savage or shocking humor without involving hateful or racial elements. 
+Feel free to use bizarre exclamations or chaotic phrases that evoke, “이게 뭐야? 완전 미쳤다ㅋㅋ.”
+
+Make at most 3 subtitles (not for every time segment), each line under 15 Korean characters, 
+with upper_text and lower_text. Aim for “spicy” absurdity—wacky references, borderline nonsensical slang, 
+and unexpected words that might make a teenager shout “헐 대박…!” 
+But do ensure no hateful content is included.
+
+You must return your final answer **strictly as valid JSON**, with **no additional text**, 
+**no code fences (```), no disclaimers, no headings**, and **no extra commentary**. 
+Output **only** a single JSON object in the following structure:
+
+{
+  "output": [
+    {
+      "time": "00:00:01,000 --> 00:00:05,000",
+      "upper_text": "상단 자막1",
+      "lower_text": "하단 자막1"
+    },
+    ...
+  ]
+}
+
+**Do not include** any lines like “=== … ===” or “```json” or any other text outside the JSON. 
+Only the JSON object itself should be returned.
